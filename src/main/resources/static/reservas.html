@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Reservas - El Sabor Tropical</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="ruta/a/tu/archivo.css">
+    </head>
+    <body class="body">
+        <h1>Reservas</h1>
+        <nav class="nav">
+            <a href="index.html">Inicio</a> |
+            <a href="menu.html">Menú</a> |
+            <a href="galeria.html">Galería</a> |
+            <a href="sobre.html">Sobre Nosotros</a> |
+            <a href="ubicacion.html">Ubicacion</a> |
+            <a href="contacto.html">Contacto</a> |
+            <a href="testimonio.html">Testimonios</a>
+        </nav>
+        
+        <article>
+            <h2>Haz una reserva</h2>
+            <form action="#">
+                <table border="0" cellspacing="5" cellpadding="5">
+                    <tbody>
+                        <tr class="form-field">
+                            <td>Usuario</td>
+                            <td><input type="email" 
+                                       name="usuario" placeholder="correo@correo.com"
+                                       size="25"/></td>
+                        </tr>                        
+                        <tr class="form-field">
+                            <td>Clave</td>
+                            <td><input type="password" name="clave"
+                                       size="10"/></td>
+                        </tr>                        
+                        <tr class="form-field">
+                            <td>Nombre</td>
+                            <td><input type="text" name="nombre" placeholder="Nombre"
+                                       size="40"/></td>
+                        </tr>                        
+                        <tr class="form-field">
+                            <td>Fecha</td>
+                            <td><input type="date" id="fecha" name="fecha"/></td>
+                        </tr>                        
+                        <tr class="form-field">
+                            <td>Hora</td>
+                            <td><input type="time" id="hora" name="hora"/></td>
+                        </tr>
+                        <tr class="form-field">
+                            <td>Cantidad Personas</td>
+                            <td><select name="nivel">
+                                    <option value="1">Una Persona</option>
+                                    <option value="2">Dos personas</option>
+                                    <option value="3">Tres personas</option>
+                                    <option value="4">Cuatro personas</option>
+                                    <option value="5">Cinco peronas</option>
+                                    <option value="6">Seis personas</option>
+                                </select></td>
+                        </tr>
+                        <tr class="form-field">
+                            <td>Acciones</td>
+                            <td><input type="reset" value="Limpiar"/>
+                                <input type="submit" value="Enviar"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </article>
+        
+        <footer>
+            <p>Derechos Reservados El sabor Tropical &COPY; 2024</p>
+        </footer>
+    </body>
+</html>

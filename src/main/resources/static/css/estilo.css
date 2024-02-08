@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 feb 2024, 1:45:15
+    Author     : Morgan
+*/
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F8F8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Estilo de los encabezados */
+h1, h2 {
+    color: #333;
+}
+
+/* Estilo del contenido del artículo */
+article {
+    margin: 15px;
+}
+
+/* Estilo de las imágenes y figuras */
+figure {
+    margin: 15px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.form-field {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.form-field input, .form-field textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-field input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.form-field input[type="submit"]:hover {
+    background-color: #FFD700;
+    color: #333;
+}
